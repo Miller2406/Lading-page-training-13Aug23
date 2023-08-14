@@ -6,10 +6,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: black;
+}
+
 /* < !-- Logo & Navbar start --> */
 .top-header-con {
     /* border: 1px solid red; */
-    width: 1080px;
+    width: 1280px;
     height: 50px;
     align-items: center;
     display: flex;
@@ -45,12 +54,12 @@ nav>button {
 
 /* < !-- Header image & content start --> */
 .header-img {
-    width: 1080px;
+    width: 1280px;
     height: 560px;
     /* border: 1px solid red; */
     padding: 2rem 2rem;
-    background-image: url("top-view-food.jpg");
-    background-size: 1280px auto;
+    background-image: url("img/top-view-food.jpg");
+    background-size: 100% auto;
     background-repeat: no-repeat;
     background-position: left;
 }
@@ -85,3 +94,119 @@ nav>button {
 }
 
 /* < !-- Header image & content end --> */
+
+/* < !-- best seller section start--> */
+.best-seller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    width: 1280px;
+}
+
+.best-seller-content {
+    /* border: 1px solid red; */
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
+
+.best-seller-content p {
+    width: 60%;
+    margin: 1rem auto;
+}
+
+.best-seller-con {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.best-seller-item {
+    width: 380px;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.best-seller-img-con {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+    margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.best-seller-item img {
+    width: 280px;
+    transform: translate(4px, 3px);
+}
+
+.best-seller-item h3 {
+    margin: 1rem;
+}
+
+.best-seller-item p {
+    margin-bottom: 1rem;
+}
+
+/* < !-- best seller section end--> */
+
+/* < !-- middle-header-start --> */
+.middle-header {
+    display: flex;
+    width: 1280px;
+    margin: 2rem auto;
+    justify-content: space-between;
+    /* flex-direction: column; */
+    align-items: center;
+
+}
+
+.m-h-img {
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100%;
+}
+
+.m-h-content {
+    width: 800px;
+    padding: 2rem;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.m-h-content h1 {
+    width: 300px;
+    margin-bottom: 1rem;
+}
+
+.m-h-content p {
+    width: 300px;
+}
+
+.m-h-b {
+    width: 300px;
+    margin-top: 1rem;
+}
+
+
+
+
+
+/* < !-- middle-header-start --> */
