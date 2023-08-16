@@ -164,49 +164,112 @@ nav>button {
 .middle-header {
     display: flex;
     width: 1280px;
-    margin: 2rem auto;
+    margin: 5rem auto;
     justify-content: space-between;
     /* flex-direction: column; */
     align-items: center;
 
 }
 
+
 .m-h-img {
     width: 500px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     display: flex;
+    /* border: 3px solid red; */
     border-radius: 100%;
+    overflow: hidden;
+}
+
+.m-h-img img {
+    height: 500px;
+    transform: translateX(13%);
+
 }
 
 .m-h-content {
-    width: 800px;
+    transform: translate(-70px, -30px);
+    width: 500px;
     padding: 2rem;
     height: 250px;
     display: flex;
     flex-direction: column;
     padding: 2rem;
-    justify-content: center;
-    align-items: center;
+    position: relative;
 }
 
 
-.m-h-content h1 {
-    width: 300px;
-    margin-bottom: 1rem;
+.m-h-content h2 {
+    width: 100%;
+    /* margin-bottom: 1rem; */
+    font-size: 50px;
+    /* right: 0; */
+    position: static;
 }
 
 .m-h-content p {
-    width: 300px;
+    width: 100%;
+    /* right: 0; */
+    position: static;
+    text-indent: 3rem;
+    margin: 1rem 0;
 }
 
-.m-h-b {
-    width: 300px;
-    margin-top: 1rem;
+.m-h-b button {
+    width: 100px;
+    height: 30px;
+    font-size: medium;
+    /* font-weight: ; */
 }
 
 
+/* < !-- sta start--> */
+.sta-con {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1280px;
+    position: relative;
+    /* text-align: center; */
+}
 
+.sta-content {
+    text-align: center;
+    margin: 1rem auto;
+    width: 1280px;
+}
 
+.sta-content>h2 {
+    font-size: 50px;
+}
 
-/* < !-- middle-header-start --> */
+.sta-content p {
+    width: 80%;
+    margin: .5rem auto;
+}
+
+.sta-con {
+    display: flex;
+    justify-content: center;
+}
+
+.sta-item {
+    margin: 3rem 4rem;
+    border: 3px solid rgb(113, 72, 0);
+    border-radius: 50%;
+    padding: 2rem;
+    text-align: center;
+    /* background-color: rgb(80, 35, 0); */
+    color: rgb(0, 0, 0);
+}
+
+.sta-item h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: .2rem;
+}
+
+/* < !-- sta start--> */
