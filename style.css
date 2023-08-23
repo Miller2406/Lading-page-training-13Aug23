@@ -104,6 +104,11 @@ nav>button {
     margin: 0 auto;
     /* border: 1px solid green; */
     width: 1280px;
+    margin-top: 4rem;
+}
+
+.best-seller h2 {
+    font-size: 50px;
 }
 
 .best-seller-content {
@@ -234,6 +239,7 @@ nav>button {
     width: 1280px;
     position: relative;
     /* text-align: center; */
+    margin-bottom: 4rem;
 }
 
 .sta-content {
@@ -272,4 +278,117 @@ nav>button {
     margin-bottom: .2rem;
 }
 
-/* < !-- sta start--> */
+/* < !-- sta end--> */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(24, 17, 1);
+}
+
+.ft-con-l {
+    width: 50%;
+    /* background-color: aquamarine; */
+    margin: 8rem 4rem;
+}
+
+footer h3 {
+    margin: 1rem 0;
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.social-con {
+    display: flex;
+}
+
+footer p {
+    /* text-indent: 2rem; */
+    left: 0;
+    width: 60%;
+    color: #fff;
+}
+
+.logo1 {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: .2rem;
+    margin-top: .8rem;
+}
+
+.logo2 {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: .2rem;
+    margin-top: .8rem;
+}
+
+.logo3 {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: .2rem;
+    margin-top: .8rem;
+}
+
+.logo4 {
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: .2rem;
+    margin-top: .8rem;
+}
+
+.ft-con-r {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: 8rem 4rem;
+    /* background-color: aquamarine; */
+}
+
+.ft-about {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 2rem; */
+    gap: .5rem;
+}
+
+.ft-service {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 2rem; */
+    gap: .5rem;
+}
+
+.ft-other {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 2rem; */
+    gap: .5rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+fotoer a:visited {
+    color: #fff;
+}
+
+fotoer a:link {
+    color: #fff;
+}
